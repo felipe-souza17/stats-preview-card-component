@@ -1,0 +1,70 @@
+:root {
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desatured-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 20vh;
+}
+
+.content {
+    background-color: var(--dark-desatured-blue);
+    width: 40%;
+}
+
+.about {
+    margin: 5vh 7vh 5vh 5vh;
+}
+
+.title {
+    color: var(--white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 4vh;
+}
+
+.title b {
+    color:hsl(277, 64%, 61%);
+}
+
+.description {
+    margin-top: 5vh;
+    font-family: 'Inter', sans-serif;
+    color: var(--slightly-transparent-white);
+    width: 90%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+    width: 80%;
+}
+
+.text {
+    color: var(--white);
+    font-size: 3vh;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.text p {
+    color: var(--slightly-transparent-white);
+    font-family: 'Inter', sans-serif;
+    font-size: 2vh;
+}
