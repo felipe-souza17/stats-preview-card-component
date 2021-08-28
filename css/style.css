@@ -17,6 +17,7 @@ body {
     font-size: 15px;
 }
 
+/* Container */
 .container {
     display: flex;
     justify-content: center;
@@ -24,15 +25,18 @@ body {
     margin-top: 20vh;
 }
 
+/* Conteúdo (Textos, descrições, imagem)*/
 .content {
     background-color: var(--dark-desatured-blue);
     width: 40%;
+    border-radius: 1vh 0 0 1vh;
 }
 
 .about {
     margin: 5vh 7vh 5vh 5vh;
 }
 
+/* Título */
 .title {
     color: var(--white);
     font-family: 'Lexend Deca', sans-serif;
@@ -43,6 +47,7 @@ body {
     color:hsl(277, 64%, 61%);
 }
 
+/* Descrição */
 .description {
     margin-top: 5vh;
     font-family: 'Inter', sans-serif;
@@ -50,6 +55,7 @@ body {
     width: 90%;
 }
 
+/* Informação, dados*/
 .info {
     display: flex;
     justify-content: space-between;
@@ -67,4 +73,12 @@ body {
     color: var(--slightly-transparent-white);
     font-family: 'Inter', sans-serif;
     font-size: 2vh;
+}
+
+/* Imagem */
+img {
+    height: 100%;
+    object-fit: cover;
+    filter: invert(15%) sepia(45%) saturate(518%) hue-rotate(230deg) brightness(85%) contrast(100%);
+    border-radius: 0 1vh 1vh 0;
 }
